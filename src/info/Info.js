@@ -67,20 +67,24 @@ export const info = {
     ,
     hobbies: [
         {
-            label: 'Reading Book or Mangas',
+            label: 'Reading Books or Mangas',
             emoji: '📖'
         },
         {
             label: 'Anime',
             emoji: '🎥'
         },
+        {
+            label: 'Cooking',
+            emoji: '🧑‍🍳'
+        }
         
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Grovery Store Web Application",
+            title: "Grocery Store Web Application",
             source: "https://github.com/rekha0suthar/grocery-web-application", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
