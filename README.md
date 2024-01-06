@@ -1,11 +1,5 @@
 # React Portfolio, multiple pages with dark mode
 
-## a portfolio for developers
-
-![screenshot](https://user-images.githubusercontent.com/18350557/176953627-cd79fe83-0b84-4082-b79e-cc88da28f2e1.png)
-
-[View Live Template](https://reactportfoliotemplate.paytonpierce.dev/)
-
 ## features
 
 🌑 Dark Mode Toggler
@@ -18,8 +12,7 @@
 
 💡 Perfect Lighthouse Score
 
-![screenshot of perfect lighthouse score](https://user-images.githubusercontent.com/18350557/179609620-847374a6-23e6-4432-b7a8-181d7d9bf026.png)
-
+![Screenshot from 2024-01-06 15-36-25](https://github.com/rekha0suthar/portfolio/assets/71004640/923a4651-ed92-46ac-8a1c-0ff3e50cb63c)
 
 ---
 
@@ -57,11 +50,9 @@
   reason, square images without too tall of an aspect-ratio work best.
 - example with background removed:
 
-![](https://user-images.githubusercontent.com/18350557/176955112-a84b32a6-ddfc-44c9-86e3-268e56654346.png)
 
 - example with background not removed:
 
-![](https://user-images.githubusercontent.com/18350557/176955109-2c6251d4-a623-482a-9059-e186f32f7f2c.png)
 
 #### mockups
 
