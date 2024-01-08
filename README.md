@@ -1,207 +1,81 @@
-# React Portfolio, multiple pages with dark mode
+# Software Developer Portfolio
 
-## features
+## Introduction
+I'm Rekha and I'm a Software Developer. I've worked as Machine Learning Engineer at Clutterbot for around 1.3 years and before that worked as Frontend Developer at Learngram for around 1 year. In web development, I've around 2 years of experience. I studied Data Science and Applications at Indian Institute od Technology Madras, Chennai. 
+As an aspiring and experienced Software Developer, wanted to build a personal software development portfolio to share learnings, and experiences and collaborate with people who have the same interest in this field.
 
-🌑 Dark Mode Toggler
+## Projects
 
-📖 Multiple Pages (React Router)
+## Web Development
+### Grocery Store Application
+>**Keywords:** Vuejs, Bootsrap, Python, Flask, RESTFUL APIS, Celery, Redis, JWT Authentication  [View Source](https://github.com/rekha0suthar/grocery-web-application/)
 
-📱 Fully Responsive
+https://github.com/rekha0suthar/portfolio/assets/71004640/27b16b51-fb32-4ccf-ab33-7504c8579757
 
-🎨 Modern Design
+1. In this application, I have added three different users - Admin, User and Store Manager.
+2. Admin can add/edit/delete categories and products and accept/reject manager’s login and category related requests. Even add products to cart and buy it.
+3. Managers can download Expenditure reports and Users will receive reminders and monthly reports in their mail.
+4. Store Managers can add/edit/delete products and send requests for categories to admin.
+5. Users can search products by category or product name and make purchases.
 
-💡 Perfect Lighthouse Score
+## E-commerce Application
+>**Keywords:** Reactjs, HTML/CSS, Javascript  [View Source](https://github.com/rekha0suthar/E-commerce-web-application) [Live Demo](https://rekha0suthar.github.io/E-commerce-web-application/)
 
-![Screenshot from 2024-01-06 15-36-25](https://github.com/rekha0suthar/portfolio/assets/71004640/923a4651-ed92-46ac-8a1c-0ff3e50cb63c)
+1. In this application, I have added some mobile products of different brands.
+2. Users can see all products, apply filters, layouts and add them to cart.
 
----
 
-## getting started
+## Movie Search Application
+>**Keywords:** Reactjs, HTML/CSS, Javascript, API  [View Source](https://github.com/rekha0suthar/Movie_Search) [Live Demo](https://rekha0suthar.github.io/Movie_Search/)
 
-### prerequisites
+1. In this application, Users can see one seach bar where they can search any movie by name.
+2. As a result of search, Users will see all Movies by that name with Movie Poster.
 
-- have [Git](https://git-scm.com/) installed on your machine
-- have [Node.js](https://nodejs.org/en/download/) installed on your machine
-- basic familiarity with your machine's command line
-- basic understanding of JSON data outline (arrays of objects basically)
+## Prompt Engineering
+### Restaurant-chatbot
+[View Source](https://github.com/rekha0suthar/machine-learning-portfolio/blob/main/restaurent-chatbot-prompt-engineer.ipynb)
 
-## how to use
+Using gpt-3.5-turbo Language model building restaurant chatbot which will take prompt and respond with an appropriate response.
 
-- fork the repository and clone locally
-- cd into the project and run `npm install` to install dependencies
-- once installation is complete, run `npm run start` to get your local copy running in the browser.
+[screen-capture.webm](https://github.com/rekha0suthar/machine-learning-portfolio/assets/71004640/08eb7e78-ebe2-4208-88a7-682f44fb9411)
 
-## template instructions
+### Snake game
+[View Source](https://github.com/rekha0suthar/machine-learning-portfolio/blob/main/snake-game.ipynb)
 
-### 1. replace the images
+Using gpt-3.5-turbo Language model building snake game which will take prompt and respond with an appropriate code response.
 
-- open the project in your file explorer, and navigate to `src/img`. there, you will see a bunch of images. these need
-  to be replaced with your own images.
+[screen-capture (1).webm](https://github.com/rekha0suthar/machine-learning-portfolio/assets/71004640/562f4621-8cd6-4518-b125-5f002eb098c3)
 
-#### self.png
 
-- add an image of yourself with the background removed, and cropped into a square. i know this seems picky, but the
-  template is set up in a way that this is how it will look best :) I recommend using https://remove.bg to remove the
-  background from your image. If this website wants to charge you for some reason, try searching "Remove Background AI"
-  on Google, there are some free ones there :)
-- Once you add it to this img folder, rename it to `self.png` (delete the old self.png so
-  yours replaces it)
-- if background removal is not an option for you, any image you use will automatically be made into a circle. for this
-  reason, square images without too tall of an aspect-ratio work best.
-- example with background removed:
+## Deep Learning
+### Face Detector or Face Recognition
+>**Keywords:** numpy, matplotlib.pyplot, pathlib, PIL(Image, ImageDraw) and face_recognition *[View Source](https://github.com/rekha0suthar/machine-learning-portfolio/tree/main/face_detector)*
 
+In this project, I have used the **face_recognition** library. With the help of this library, I get face location, face embeddings, and many more features from Image. This project can detect faces in images, draw rectangles, or lines over facial features(nose, eyebrows, lips, etc.) and do some digital makeup. At the end we are giving input image and the model is giving a similar face from training data.
 
-- example with background not removed:
+### Digit Recognition
+>**Keywords:** numpy, pandas, Tensorflow, Keras, gradio *[View Source](https://github.com/rekha0suthar/machine-learning-portfolio/tree/main/digit-recognizer)*
 
+This is a simple **Convolutional Neural Network(CNN)** model. I have used Tensorflow and Keras in this project. I have added some **Convolutional** layers, some **Max Pooling** layers, and a **Dense** layer, and also applied **Flatten**, **Dropout**, and **RELU** activation functions. In the end, using gradio built UI where user can draw number and output will be shown on the right side with the top three highest probability digits with percentages.
 
-#### mockups
+### Image Classification - Cat-Dog Classifier
+>**Keywords:** fastai, gradio *[View Source](https://github.com/rekha0suthar/deep-learning-projects/tree/main/cat-dog-classifier)*
 
-- add to the `img` folder up to 5 screenshots of projects you have completed to be added to your portfolio page. this
-  can either be a regular screenshot, or you can create mockups like what are on the default template. I created these
-  in Canva -- At the bottom of this readme is instructions to create them yourself! 
+  I have built this model with the help of **fastai**  library and built User Interface using Gradio. We give input image of a dog or cat and the model gives output with either it is cat or dog with percentage. In UI, we can upload an image and the output will be shown on the right side. I have deployed this model on Hugging Face.
 
-example: ![](http://localhost:3000/static/media/mock5.7a3de7b6c7393f774688.png)
+## Machine Learning
+### Price Prediction of House - Regression
+> **Keywords:** numpy, pandas, matplotlib.pyplot, seaborn, scikit-learn *[View Source](https://github.com/rekha0suthar/machine-learning-portfolio/tree/main/boston-house-pricing-regmodel)*
 
-- to make life easier later, name these files `mock1.png`, `mock2.png`, etc.
+  This is a simple Traditional Machine Learning Project. I have done Data Proprocessing, Exploratory Data Analysis(EDA), and Data Scaling, and in the end, used **LinearRegression** Model to train data and make predictions. I have built **HTML** page for UI purposes and getting input data from the user through form and sending that data to **POST API** to see prediction using POSTMAN. Using the model to predict output and then showing it on HTML Page. I have also added a **.yaml** file and **Procfile** to deploy it on Heroku. Also added the **Docter** file.
 
----
+### Wine Quality Prediction - Classification
+> **Keywords:** numpy, pandas, matplotlib.pyplot, seaborn, scikit-learn *[View Source]([https://github.com/rekha0suthar/machine-learning-projects/tree/main/Wine%20Quality%20Prediction](https://github.com/rekha0suthar/machine-learning-portfolio/tree/main/wine-quality-prediction))*
 
-### 2. edit `Info.js`
+This is a simple Classification Model to predict the Quality of Wine. I have done Data Proprocessing, Exploratory Data Analysis(EDA), and Data Balancing using **SMOTE**, and finally tried many classification Models like LogisticRegression, DecisionTreeClassifier, RandomForestClassifier, and ExtraTreeClassifier. Among all these **ExtraTreeClassifier** gave the highest accuracy.
 
-Next, open the project in your code editor. Navigate to `src/info/Info.js`. There are some instructions written in the
-comments there, but I will go over it all here as well:
-
-#### Color Scheme
-
-near the top of the file, you will find a line that looks like this:
-
-```
-export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
-```
-
-There are the colors being used to determine the "accents" throughout the site - the circle behind your self portrait,
-the color of your name, the labels on the about page, and the underline for the navigation.
-
-You can pick any colors you like for this, just play around with it and make sure to check the colors against both light
-mode and dark mode to make sure it looks good on both :)
-
-#### Your Information
-
-going further down the Info.js file, you can start replacing the default information with your own information, such as
-first name, last name, initials, position, etc. Some of the values in this file should remain untouched -- be sure to
-read the comments to see what to edit.
-
-if you're not sure how to get emojis for the miniBio and hobbies, on Mac you should be able to access the emoji keyboard
-with ctrl+cmd+space, and on Windows with windows+period('.')
-
-Otherwise, use [Emojipedia](https://emojipedia.org/) to find and copy-paste what you like.
-
-For the 'socials' section, be sure to replace the links with your own social profile links.
-
-For the 'portfolio' section, update the titles to whatever you want. The `live` link should be a link to the **live demo** of your project. The `source` link should be a link to the **repository where the *code* of the project is hosted**,
-such as GitHub.
-
-Note: If you have more than 5 projects, you will need to add more objects to the portfolio array. Just copy from the
-opening bracket to the comma of *one* object and continue pasting as many as you need. If you need help with this, feel
-free to reach out.
-
-And that's it! If you save the file and check your live server, you should see that the information has been updated and
-the portfolio has been customized.
-
-Now, you can commit and push your changes to your forked repository, and deploy however you like.
-
----
-
-And you're done!
-
-If you have any questions or issues with the setup process, feel free to contact me by any of the means below:
-
-[Twitter](https://twitter.com/paytoncodes) | paytontaylor96@gmail.com
-
-Or, use this repo and post an "issue" :)
-
-All that I ask is that you please credit me for the template :) If you'd like to remove the credit from the bottom of
-the site, go for it, just link my profile somewhere in your ReadMe when you deploy, or wherever.
-
-.•° ✿ °•.
-
-If you enjoyed this template and want to support my ability to make more of these,
-as well as creating video tutorials about React projects, writing articles about
-helpful developer tools, or you just want to be nice, feel free to
-support me on [Ko-Fi](https://ko-fi.com/paytoncodes)!
-
-If you have any suggestions for how to improve this template, the ReadMe guide, etc.
-please don't hesitate to reach out -- I will always happily accept constructive feedback!
-
-°•. ✿ .•°
-
----
-
-### How to create project mock-ups in Canva
-
-You must have a Canva account for this to work! If you don't want to create one, feel free to send me laptop and mobile sized screenshots of your projects and I will make some mocks for you! It just might take a couple days to get to them. My contact info can be found on my Github profile or in this readme. Feel free to contact via Twitter or email, or to open an issue on this project.
-
-Now, then!
-
-The easiest way is to click on [this link](https://www.canva.com/design/DAEi4hwD8KM/YF6znvnVBGeR1p_KujaTwA/edit?utm_content=DAEi4hwD8KM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) and edit with the desktop and mobile views of your project. 
-
-1. Double-click the "computer" screen in the mockup linked above, and click "delete" on your keyboard to remove it. Do the same with the screenshot that is in mobile. Once completed, it should look like this: 
-![image](https://user-images.githubusercontent.com/18350557/213895660-11caf808-e929-4569-b404-92ff742bb3ff.png)
-
-2. On the left sidebar, click "uploads" and then "upload files" to upload your screenshots of your own project (get one for desktop view and one for mobile view)
-
-3. Drag those screenshots into the appropriate frames, replacing the cloud-and-sky background. It should snap right in.
-
-4. Finally, at the top right corner, click on the "Share" button and then "Download" -- set the file type to PNG, and then download. If you have Canva Premium, you can do this with a transparent background. If not, remove the background yourself using either a photo editor like Photopea, or an AI background remover (just google it, you can usually use them for free a few times). 
-
-5. These are the images you will want to put in the img/ folder of the project and name "mock1" "mock2" etc. etc. Hope this helps! 
-
----
-
-##### examples of people using this template!
-
-[Alan Tram](https://atramucsd.github.io/My-Website/#/)
-
-[Irfan Balghari](https://irfanbalghari.netlify.app/)
-
-[Mete Karasakal](https://karasakalmt.dev/)
-
-[Igor Nascimento](https://inascim.github.io/)
-
-[Austin](https://ellerman4.github.io/)
-
-[Anshu Sharma](https://anshu-sharma.netlify.app/)
-
-[Humberto Dutra](https://humbertodutra.github.io/)
-
-[Mehmet Zorlu](https://mehmetzorlu07.github.io/Portfolio/)
-
-[Antti Tamminen](https://react-portfolio-template-41210wtc0-paytonjewell.vercel.app/)
-
-[Joseph A. Sangine](https://josephanthonysangine.com/)
-
-[Andrew VanOver](https://lustrous-bavarois-5a9a5e.netlify.app/)
-
-[Luca Martinelli](https://www.lucamartinelli.dev/)
-
-[Eugene](https://knst.me/)
-
-[Ajan JaiRam](https://ajanjairam.github.io/)
-
-[Leo Souquet](https://leosouquet.com/)
-
-[Bahrul Ulum](http://bahrulum.site/)
-
-[Pedro Fontes](https://pedrofontes.me/)
-
-[Laísa Rio](https://laisario.github.io/)
-
-[Akshay Mattoo](https://akshaymattoo.com/)
-
-[Alwin Ning](https://alwin-website.vercel.app/)
-
-[Hyun Woo](https://needon.kr/)
-
-[Dirk Kotze](https://dirkrkotze.com/)
-
-[Iuliia Sutygina](https://juliasut.github.io/portfolio/)
+## Course
+I have completed many Machine Learning Courses and below are some of them.
+1. Fastai - Deep Learning for Coders with Fastai and Pytorch
+2. Educative - Become Machine Learning Engineer
+3. FreeCodeCamp - Completed Frontend Development
