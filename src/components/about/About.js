@@ -19,6 +19,44 @@ export default function About() {
         </>;
     }
 
+    function experienceText() {
+        return <>
+            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd experience/
+            </p>
+            <p><span style={{color: info.baseColor}}>experience <span
+                className={Style.green}>(main)</span> $</span> ls</p>
+            <p style={{color: info.baseColor}}> Work Experience</p>
+            <ul>
+                {info.experiences.map((experience, index) => 
+                <div key={index}>
+                    <p>{experience.jobTitle}  </p>
+                    <p>{experience.company} {experience.duration}</p>
+                    <br />
+                </div>)}
+            </ul>
+            
+        </>;
+    }
+
+    function educationText() {
+        return <>
+            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd education/
+            </p>
+            <p><span style={{color: info.baseColor}}>education <span
+                className={Style.green}>(main)</span> $</span> ls</p>
+            <p style={{color: info.baseColor}}> Education</p>
+            <ul>
+                {info.education.map((edx, index) => 
+                <div key={index}>
+                    <p>{edx.institute}  </p>
+                    <p>{edx.degree} in {edx.specialisation}</p>
+                    <br />
+                </div>)}
+            </ul>
+            
+        </>;
+    }
+
     function skillsText() {
         return <>
             <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd skills/tools
@@ -53,7 +91,9 @@ export default function About() {
     return (
         <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'}>
             <Terminal text={aboutMeText()}/>
+            <Terminal text={experienceText()}/>
             <Terminal text={skillsText()}/>
+            <Terminal text={educationText()}/>
             <Terminal text={miscText()}/>
         </Box>
     )
