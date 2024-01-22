@@ -50,17 +50,17 @@ export const info = {
         {
             jobTitle: 'Machine Learning Engineer',
             company: 'Clutterbot',
-            duration: 'FEB 2022-MARCH 2023'
+            duration: 'FEB 2023-NOV 2023'
         },
         {
             jobTitle: 'Frontend Developer',
             company: 'Learngram',
-            duration: 'APR 2021-JAN 2022'
+            duration: 'APR 2022-JAN 2023'
         },
         {
             jobTitle: 'Frontend Developer & Intern',
             company: 'Thinkreals',
-            duration: 'MARCH 2020-MARCH 2021'
+            duration: 'MARCH 2021-FEB 2022'
         },
     ],
     education: [
